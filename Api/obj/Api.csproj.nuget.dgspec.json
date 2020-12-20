@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/shiv/Projects/dotnet/Api/Api.csproj": {}
+    "/home/shiv/Projects/dotnet/shop/Api/Api.csproj": {}
   },
   "projects": {
-    "/home/shiv/Projects/dotnet/Api/Api.csproj": {
+    "/home/shiv/Projects/dotnet/shop/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/shiv/Projects/dotnet/Api/Api.csproj",
+        "projectUniqueName": "/home/shiv/Projects/dotnet/shop/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/home/shiv/Projects/dotnet/Api/Api.csproj",
+        "projectPath": "/home/shiv/Projects/dotnet/shop/Api/Api.csproj",
         "packagesPath": "/home/shiv/.nuget/packages/",
-        "outputPath": "/home/shiv/Projects/dotnet/Api/obj/",
+        "outputPath": "/home/shiv/Projects/dotnet/shop/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/shiv/.nuget/NuGet/NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/shiv/Projects/dotnet/ApiLibrary/ApiLibrary.csproj": {
-                "projectPath": "/home/shiv/Projects/dotnet/ApiLibrary/ApiLibrary.csproj"
+              "/home/shiv/Projects/dotnet/shop/ApiLibrary/ApiLibrary.csproj": {
+                "projectPath": "/home/shiv/Projects/dotnet/shop/ApiLibrary/ApiLibrary.csproj"
               }
             }
           }
@@ -40,13 +40,15 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.InMemory": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[3.1.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[3.1.10, )"
             }
           },
           "imports": [
@@ -77,14 +79,14 @@
         }
       }
     },
-    "/home/shiv/Projects/dotnet/ApiLibrary/ApiLibrary.csproj": {
+    "/home/shiv/Projects/dotnet/shop/ApiLibrary/ApiLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/shiv/Projects/dotnet/ApiLibrary/ApiLibrary.csproj",
+        "projectUniqueName": "/home/shiv/Projects/dotnet/shop/ApiLibrary/ApiLibrary.csproj",
         "projectName": "ApiLibrary",
-        "projectPath": "/home/shiv/Projects/dotnet/ApiLibrary/ApiLibrary.csproj",
+        "projectPath": "/home/shiv/Projects/dotnet/shop/ApiLibrary/ApiLibrary.csproj",
         "packagesPath": "/home/shiv/.nuget/packages/",
-        "outputPath": "/home/shiv/Projects/dotnet/ApiLibrary/obj/",
+        "outputPath": "/home/shiv/Projects/dotnet/shop/ApiLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/shiv/.nuget/NuGet/NuGet.Config"
@@ -109,6 +111,22 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
