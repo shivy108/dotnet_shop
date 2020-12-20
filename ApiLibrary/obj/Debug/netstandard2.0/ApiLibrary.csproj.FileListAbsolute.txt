@@ -6,3 +6,11 @@
 /home/shiv/Projects/dotnet/ApiLibrary/obj/Debug/netstandard2.0/ApiLibrary.AssemblyInfo.cs
 /home/shiv/Projects/dotnet/ApiLibrary/obj/Debug/netstandard2.0/ApiLibrary.dll
 /home/shiv/Projects/dotnet/ApiLibrary/obj/Debug/netstandard2.0/ApiLibrary.pdb
+/home/shiv/Projects/dotnet/shop/ApiLibrary/bin/Debug/netstandard2.0/ApiLibrary.deps.json
+/home/shiv/Projects/dotnet/shop/ApiLibrary/bin/Debug/netstandard2.0/ApiLibrary.dll
+/home/shiv/Projects/dotnet/shop/ApiLibrary/bin/Debug/netstandard2.0/ApiLibrary.pdb
+/home/shiv/Projects/dotnet/shop/ApiLibrary/obj/Debug/netstandard2.0/ApiLibrary.csprojAssemblyReference.cache
+/home/shiv/Projects/dotnet/shop/ApiLibrary/obj/Debug/netstandard2.0/ApiLibrary.AssemblyInfoInputs.cache
+/home/shiv/Projects/dotnet/shop/ApiLibrary/obj/Debug/netstandard2.0/ApiLibrary.AssemblyInfo.cs
+/home/shiv/Projects/dotnet/shop/ApiLibrary/obj/Debug/netstandard2.0/ApiLibrary.dll
+/home/shiv/Projects/dotnet/shop/ApiLibrary/obj/Debug/netstandard2.0/ApiLibrary.pdb
